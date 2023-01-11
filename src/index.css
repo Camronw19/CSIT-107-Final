@@ -50,6 +50,26 @@
   height: h-80;
 }
 
+.color-background {
+  
+  background-color: #223C60
+}
+
+.color-Heading {
+  
+  color: #f4f9fa
+}
+
+.border-primary {
+  
+  border-color: #f3f7f8
+}
+
+.color-text {
+  
+  color: #D6DDE0
+}
+
 .content-div2:hover {
   background-image: linear-gradient(
     to right,
@@ -78,12 +98,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #7aa1c5 -43.27%,
+    #5885AF -21.24%,
+    #5885AF 12.19%,
+    #41729F 29.82%,
+    #35578d 51.94%,
+    #274472 90.29%
   );
 }
 
@@ -166,13 +186,13 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(77, 34, 206, 0.041) 0%, #2292969f 100%);
   filter: blur(123px);
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  background: linear-gradient(90deg, #274472 0%, #7aa1c5 100%);
+  filter: blur(300px);
 }
 
 .white__gradient {
