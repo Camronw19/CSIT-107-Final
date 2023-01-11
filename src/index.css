@@ -29,6 +29,12 @@
   scroll-behavior: smooth;
 }
 
+hr {
+    color: '#000000';
+    height: .5;
+ 
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,12 +70,12 @@
 
 .color-Heading {
   
-  color: #f4f9fa
+  color: #ebf2f5
 }
 
 .border-primary {
   
-  border-color: #f3f7f8
+  border-color: #7aa1c5
 }
 
 .color-text {
@@ -105,12 +111,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     195deg,
-    #607f9c -43.27%,
-    #7aa1c5 -21.24%,
-    #334e68 12.19%,
-    #1e364d 29.82%,
-    #202a49 51.94%,
-    #111729 90.29%
+    #3c4c7e -43.27%,
+    #2b375c -21.24%,
+    #202a49 12.19%,
+    #202a49 29.82%,
+    #19223b 51.94%,
+    #141b30 90.29%
   );
 }
 

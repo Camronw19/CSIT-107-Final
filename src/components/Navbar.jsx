@@ -9,9 +9,10 @@ const Navbar = () => {
 const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
+
   return (
     <div className=' fixed w-full h-[80px] flex justify-between z-20 items-center 
-    px-4 background-opacity backdrop-blur border-b text-[#f3f7f8]'>
+    px-4 background-opacity backdrop-blur border-b-[1px] border-[#1d263f] text-[#f3f7f8]'>
         <div className=' color-background'>
             <img src={logo} alt="Logo Image" style={{ width: '80px', height: '70px'}} />
         </div>
@@ -55,7 +56,8 @@ const handleClick = () => setNav(!nav)
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500} >
                     Home
-                </Link></li>
+                </Link>
+            </li>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="about" smooth={true} duration={500} >
                     About
@@ -113,6 +115,7 @@ const handleClick = () => setNav(!nav)
             </ul>
         </div>
     </div>
+    
   );
 };
 

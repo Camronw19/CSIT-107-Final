@@ -12,11 +12,11 @@ const Contact = () => {
                     // Submit the form below or email me at - camronwalsh@gmail.com
                 </p>
             </div>
-            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2' placeholder='Message' name='message' rows="10" ></textarea>
-            <button className='text-white border-2 hover:bg-pink-600
-             hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
+            <input className='bg-[#e8edfa] caret-[#41729F] rounded-sm p-2 placeholder:italic' type="text" placeholder='Name' name='name' />
+            <input className='my-4 p-2 bg-[#e8edfa] placeholder:text-gray-500 caret-[#41729F] rounded-sm placeholder:italic' type="email" placeholder='Email' name='email' />
+            <textarea className='bg-[#e8edfa] placeholder:text-gray-500 p-2 caret-[#41729F] rounded-sm placeholder:italic' placeholder='Message' name='message' rows="10" ></textarea>
+            <button className='text-white border-2 hover:bg-[#7aa1c5]
+             hover:border-[#7aa1c5] px-4 py-3 my-8 mx-auto flex items-center hover:scale-105 duration-500'>
                 Let's Collaborate
             </button>
 
