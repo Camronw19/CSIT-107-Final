@@ -24,7 +24,7 @@ const Home = () => {
                 Currently, I'm working on building audio vst's
             </p>
             <div>
-              <button className='fixed z-10 hover:translate-x-5 duration-300 text-white border-2 px-6 py-3 my-2 flex 
+              <button className='z-10 hover:translate-x-5 duration-300 text-white border-2 px-6 py-3 my-2 flex 
               items-center hover:bg-[#98D7C2] hover:border-[#98D7C2]'>
                 View Work
                 <span className='duration-300'>
@@ -32,8 +32,8 @@ const Home = () => {
                 </span>      
             </button>  
             </div>
-            <div className="absolute z-[0] w-[30%] h-[20%] top-0 right-0 blue__gradient" />  
-            <div className="absolute z-[0] w-[50%] h-[40%] top-0 right-40 pink__gradient" />  
+            <div className="absolute z-10 w-[30%] h-[30%] top-0 right-0 blue__gradient" />  
+            <div className="absolute z-10 w-[40%] h-[30%] top-0 right-0 pink__gradient" />  
         </div>
     </div>
     

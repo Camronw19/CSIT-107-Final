@@ -52,8 +52,15 @@
 
 .color-background {
   
-  background-color: #223C60
+  background-color: #111729
 }
+
+.background-opacity {
+  
+  background-color: rgb(17, 23, 41, .6)
+  
+}
+
 
 .color-Heading {
   
@@ -97,13 +104,13 @@
 
 .bg-blue-gradient {
   background: linear-gradient(
-    157.81deg,
-    #7aa1c5 -43.27%,
-    #5885AF -21.24%,
-    #5885AF 12.19%,
-    #41729F 29.82%,
-    #35578d 51.94%,
-    #274472 90.29%
+    195deg,
+    #607f9c -43.27%,
+    #7aa1c5 -21.24%,
+    #334e68 12.19%,
+    #1e364d 29.82%,
+    #202a49 51.94%,
+    #111729 90.29%
   );
 }
 

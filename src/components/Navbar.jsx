@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedinIn, FaFacebook} from 'react-icons/fa' 
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import logo from '../assets/logo1.png'
+import logo from '../assets/W (6).png'
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
@@ -10,13 +10,14 @@ const [nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 color-background text-[#f3f7f8]'>
-        <div>
-            <img src={logo} alt="Logo Image" style={{ width: '50px'}}/>
+    <div className=' fixed w-full h-[80px] flex justify-between z-20 items-center 
+    px-4 background-opacity backdrop-blur border-b text-[#f3f7f8]'>
+        <div className=' color-background'>
+            <img src={logo} alt="Logo Image" style={{ width: '80px', height: '70px'}} />
         </div>
 
         {/* Menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex '>
                 <li>
                 <Link  to="home" smooth={true} duration={500} >
                     Home
@@ -79,7 +80,7 @@ const handleClick = () => setNav(!nav)
 
 
         {/* Social icons */}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'> 
+        <div className='hidden lg:flex fixed flex-col top-[605%] left-0'> 
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between 
                     items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#274472]'>
@@ -111,8 +112,6 @@ const handleClick = () => setNav(!nav)
                 </li>
             </ul>
         </div>
-
-        
     </div>
   );
 };
