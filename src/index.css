@@ -45,6 +45,20 @@
 
 }
 
+.content-div2 {
+  
+  height: h-80;
+}
+
+.content-div2:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(179, 210, 255, 0.8)
+  )!important;
+
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
