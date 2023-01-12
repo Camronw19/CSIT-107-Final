@@ -44,11 +44,14 @@ hr {
 
 .content-div:hover {
   background-image: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8 )
+    195deg,
+    #3c4c7e -43.27%,
+    #2b375c -21.24%,
+    #202a49 12.19%,
+    #202a49 29.82%,
+    #19223b 51.94%,
+    #141b30 90.29%
   )!important;
-
 }
 
 .content-div2 {
