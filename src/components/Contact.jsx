@@ -12,7 +12,7 @@ const Contact = () => {
                     // Submit the form below or email me at - camronwalsh@gmail.com
                 </p>
             </div>
-            <input className='bg-[#e8edfa] caret-[#41729F] rounded-sm p-2 placeholder:italic' type="text" placeholder='Name' name='name' />
+            <input className='bg-[#e8edfa] caret-[#41729F] placeholder:text-gray-500 rounded-sm p-2 placeholder:italic' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#e8edfa] placeholder:text-gray-500 caret-[#41729F] rounded-sm placeholder:italic' type="email" placeholder='Email' name='email' />
             <textarea className='bg-[#e8edfa] placeholder:text-gray-500 p-2 caret-[#41729F] rounded-sm placeholder:italic' placeholder='Message' name='message' rows="10" ></textarea>
             <button className='text-white border-2 hover:bg-[#7aa1c5]
