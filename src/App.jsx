@@ -1,10 +1,7 @@
-import React from 'react'
-import {Navbar, Home, About, Skills, Work, Contact} from "./components"
-
+import React from "react";
+import { Navbar, Home, About, Skills, Work, Contact } from "./components";
 
 const App = () => {
-
-  
   return (
     <div>
       <Navbar />
@@ -15,6 +12,6 @@ const App = () => {
       <Contact />
     </div>
   );
-}
+};
 
-export default App
+export default App;

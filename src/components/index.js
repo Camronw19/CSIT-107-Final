@@ -11,6 +11,5 @@ export {
     About, 
     Skills,
     Work,
-    Contact,
-    
+    Contact
 }; 
