@@ -2,6 +2,8 @@ import React from "react";
 import workImg from "../assets/projects/workimg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
 import { Sampler_JUCE } from "../assets";
+import { JFS_Demo } from "../assets";
+import { VES_SS } from "../assets";
 
 import {
   Card,
@@ -40,7 +42,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Camronw19/FirstSampler">
                   <button className="text-center rounded-lg px-4 py-3 m-2  text-white border-2  items-center  hover:border-[#7aa1c5] font-bold text-lg hover:scale-105 duration-300">
                     Code
                   </button>
@@ -51,13 +53,13 @@ const Work = () => {
 
           {/* grid item */}
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${JFS_Demo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Joural File System
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -76,13 +78,13 @@ const Work = () => {
 
           {/* grid item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${VES_SS})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Vehicle Enumeration System
               </span>
               <div className="pt-8 text-center">
                 <a href="/">

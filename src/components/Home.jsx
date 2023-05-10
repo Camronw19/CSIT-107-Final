@@ -15,7 +15,7 @@ const Home = () => {
           Camron Walsh
         </h1>
 
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#d3d3d3]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#c7c7c7]">
           I'm a computer science student.
         </h2>
 
